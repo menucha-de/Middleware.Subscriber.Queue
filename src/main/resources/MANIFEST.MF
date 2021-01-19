@@ -1,0 +1,18 @@
+Bundle-Name: Ha-VIS Middleware Queue Subscriber Connector
+Bundle-SymbolicName: havis.middleware.subscriber.queue-subscriberconnector
+Bundle-Version: 2.6.0
+Implementation-Version: 2.6
+Bundle-ManifestVersion: 2
+Bundle-Vendor: HARTING IT_SD
+Bundle-Activator: havis.middleware.subscriber.queue.osgi.Activator
+Import-Package: 
+ havis.middleware.ale.base.exception,
+ havis.middleware.ale.exit,
+ havis.middleware.ale.service.cc,
+ havis.middleware.ale.service.ec,
+ havis.middleware.ale.service.pc,
+ havis.middleware.ale.subscriber,
+ org.osgi;resolution:=optional,
+ org.osgi.framework;resolution:=optional,
+ org.osgi.util.tracker;resolution:=optional
+
